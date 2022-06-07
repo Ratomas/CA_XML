@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Pokehaan-Craft</Name>
+  <Repository>ratomas/pokehaan-craft</Repository>
+  <Registry>https://hub.docker.com/r/ratomas/pokehaan-craft</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Ratomas/pokehaan-craft/issues</Support>
+  <Project>https://www.curseforge.com/minecraft/modpacks/pokehaan-craft</Project>
+  <Overview>Docker Container for Pokehaan Craft Minecraft Modpack&#xD;
+&#xD;
+The docker on first run will download the same version as tagged of Pokehaan Craft and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.&#xD;
+&#xD;
+After the first run it will simply start the server.</Overview>
+  <Category>GameServers:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://media.forgecdn.net/avatars/thumbnails/298/994/64/64/637351626050046394.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1654643598</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="25565" Default="25565" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">25565</Config>
+  <Config Name="EULA" Target="EULA" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="OPS" Target="OPS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">ratomas79</Config>
+  <Config Name="Installation Location" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/pokehaan-craft/</Config>
+  <Config Name="JAVA_FLAGS" Target="JAVA_FLAGS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">-Dfml.queryResult=confirm</Config>
+</Container>
