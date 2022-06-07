@@ -25,7 +25,7 @@ After the first run it will simply start the server.</Overview>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Port" Target="25565" Default="25565" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">25566</Config>
+  <Config Name="Port" Target="25565" Default="25565" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">25565</Config>
   <Config Name="EULA" Target="EULA" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="OPS" Target="OPS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">ratomas79</Config>
   <Config Name="Installation Location" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/rustic-waters-ii/</Config>
