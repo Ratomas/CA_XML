@@ -8,7 +8,7 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/Ratomas/rustic-waters-ii/issues</Support>
-  <Project>https://github.com/Ratomas/rustic-waters-ii</Project>
+  <Project>https://www.curseforge.com/minecraft/modpacks/rustic-waters-ii</Project>
   <Overview>Docker Container for Rustic Waters II Minecraft Modpack&#xD;
 &#xD;
 The docker on first run will download the same version as tagged of Rustic Waters II and install it. This can take a while as the Forge installer can take a bit to complete. You can watch the logs and it will eventually finish.&#xD;
