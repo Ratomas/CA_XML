@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>All_the_Mods_7</Name>
+  <Repository>ratomas/all_the_mods_7</Repository>
+  <Registry>https://hub.docker.com/r/ratomas/all_the_mods_7</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Ratomas/all_the_mods_7/issues</Support>
+  <Project>https://www.curseforge.com/minecraft/modpacks/all-the-mods-7</Project>
+  <Overview>Docker Container for All the Mods 7 Minecraft Modpack&#xD;
+&#xD;
+The docker on first run will download the same version as tagged of All the Mods 7 and install it. This can take a while as the Forge installer can take a bit to complete. You can watch the logs and it will eventually finish.&#xD;
+&#xD;
+After the first run it will simply start the server.</Overview>
+  <Category>GameServers:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://github.com/Ratomas/all_the_mods_7/blob/master/all_the_mods_7.jpeg?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1654646565</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Installation Location" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/all_the_mods_7</Config>
+  <Config Name="Port" Target="25565" Default="25565" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">25565</Config>
+  <Config Name="JVM_OPTS" Target="JVM_OPTS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">-Xms2048m -Xmx6144m</Config>
+  <Config Name="OPS" Target="OPS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">ratomas79</Config>
+  <Config Name="EULA" Target="EULA" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+</Container>
