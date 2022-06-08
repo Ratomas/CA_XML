@@ -25,8 +25,51 @@ After the first run it will simply start the server.</Overview>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Port" Target="25565" Default="25565" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">25565</Config>
-  <Config Name="EULA" Target="EULA" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
-  <Config Name="OPS" Target="OPS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">ratomas79</Config>
-  <Config Name="Installation Location" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/rustic-waters-ii/</Config>
+  <Config
+      Type="Path"
+      Name="Installed Location"
+      Target="/data"
+      Default="/mnt/user/appdata/rustic-waters-ii/"
+      Mode="rw"
+      Description="Path to store the installed server files."
+      Display="always"
+      Required="true"
+      Mask="false">/mnt/user/appdata/rustic-waters-ii/</Config>
+  <Config
+      Type="Variable"
+      Name="EULA"
+      Target="EULA"
+      Default="false"
+      Description="Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula? Server will not start without accepting. Set to 'true' to accept."
+      Display="always"
+      Required="true"
+      Mask="false">false</Config>
+  <Config
+      Type="Variable"
+      Name="JVM_OPTS"
+      Target="JVM_OPTS"
+      Default="-Xms2048m -Xmx4096m"
+      Description="JAVA Options"
+      Display="always"
+      Required="false"
+      Mask="false">-Xms2048m -Xmx6144m</Config>
+  <Config
+      Type="Variable"
+      Name="OPS"
+      Target="OPS"
+      Default=""
+      Description="Comma separated list of players to have op capability"
+      Display="always"
+      Required="false"
+      Mask="false"/>
+  <Config
+      Type="Port"
+      Name="Port"
+      Target="25565"
+      Default="25565"
+      Mode="tcp"
+      Description="Port for the server"
+      Display="always"
+      Required="false"
+      Mask="false">25565</Config>
 </Container>
