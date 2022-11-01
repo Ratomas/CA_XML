@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>All_the_Mods_7_to_the_Sky</Name>
-  <Repository>ratomas/all_the_mods_7_to_the_sky</Repository>
+  <Name>All-the-Mods-7-to-the-Sky</Name>
+  <Repository>ratomas/all-the-mods-7-to-the-sky</Repository>
   <Registry>https://hub.docker.com/r/ratomas/all-the-mods-7-to-the-sky</Registry>
   <Network>host</Network>
   <MyIP/>
