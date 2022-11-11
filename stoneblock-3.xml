@@ -17,7 +17,7 @@ After the first run it will simply start the server.</Overview>
   <Category>GameServers:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://github.com/Ratomas/stoneblock-3/blob/master/stoneblock-3.png?raw=true</Icon>
+  <Icon>https://github.com/Ratomas/stoneblock-3/blob/main/stoneblock-3.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
